@@ -7,7 +7,11 @@ Sempre que o usuário enviar um roteiro de vídeo, sem precisar pedir, monte a s
 1. **Pesquise na amazon.co.uk** (busca restrita ao domínio) e escolha **4 produtos** que combinem com o tema do roteiro.
    - Prefira produtos coerentes com a mensagem do vídeo. Exemplo: num vídeo sobre marcas que deixaram de fabricar no Reino Unido, divulgue produtos **ainda feitos no Reino Unido**, nunca a versão fabricada fora.
    - Confira em cada página se o produto está disponível e, quando importar para o tema, qual é o país de origem.
-   - Descarte páginas indisponíveis.
+   - Descarte páginas indisponíveis. **Confira o estoque de cada link antes de entregar**: baixe a página (`curl` da URL `/dp/ASIN`) e procure no texto:
+     - "Currently unavailable" = esgotado → descarte.
+     - "This item cannot be dispatched to your selected delivery location" = **disponível** para o Reino Unido (o servidor está fora do país, por isso a mensagem).
+     - "Page Not Found" = link morto → descarte.
+   - A busca na web mostra cópias antigas das páginas: ela serve para achar produtos e confirmar a origem, não o estoque.
 2. **Entregue em um único bloco de código pronto para copiar e colar**, em inglês (o público é britânico), neste formato:
    - Um título de seção com emoji.
    - Uma frase curta de abertura que ligue os produtos ao vídeo.
