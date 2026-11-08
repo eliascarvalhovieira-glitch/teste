@@ -4,12 +4,15 @@
 
 Sempre que o usuário enviar um roteiro de vídeo, sem precisar pedir, monte a seção de produtos afiliados da Amazon para a descrição do vídeo:
 
-1. **Pesquise na amazon.co.uk** (busca restrita ao domínio) e escolha **4 produtos** que combinem com o tema do roteiro.
-   - Prefira produtos coerentes com a mensagem do vídeo. Exemplo: num vídeo sobre marcas que deixaram de fabricar no Reino Unido, divulgue produtos **ainda feitos no Reino Unido**, nunca a versão fabricada fora.
+1. **Analise o roteiro e defina o público**: quem assiste (idade, situação de vida, interesses) e o que essa pessoa estaria com vontade de comprar depois de ver o vídeo. **Os produtos não precisam estar no roteiro**; escolha o que esse público compraria de verdade.
+   - Prefira produtos que a pessoa deseja e que funcionam como presente, não acessórios baratos e sem apelo.
+   - Mantenha a coerência com a mensagem do vídeo. Exemplo: num vídeo sobre marcas que deixaram de fabricar no Reino Unido, não divulgue a versão fabricada fora.
+   - **Pesquise na amazon.co.uk** (busca restrita ao domínio) e escolha **4 produtos**.
    - Confira em cada página se o produto está disponível e, quando importar para o tema, qual é o país de origem.
    - Descarte páginas indisponíveis. **Confira o estoque de cada link antes de entregar**: baixe a página (`curl` da URL `/dp/ASIN`) e procure no texto:
      - "Currently unavailable" = esgotado → descarte.
      - "This item cannot be dispatched to your selected delivery location" = **disponível** para o Reino Unido (o servidor está fora do país, por isso a mensagem).
+     - "In stock" (quando a página aceita enviar para o local do servidor) = **disponível**.
      - "Page Not Found" = link morto → descarte.
    - A busca na web mostra cópias antigas das páginas: ela serve para achar produtos e confirmar a origem, não o estoque.
 2. **Entregue em um único bloco de código pronto para copiar e colar**, em inglês (o público é britânico), neste formato:
