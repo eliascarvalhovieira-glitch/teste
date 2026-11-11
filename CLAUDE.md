@@ -13,6 +13,7 @@ Sempre que o usuário enviar um roteiro de vídeo, sem precisar pedir, monte a s
      - "Currently unavailable" = esgotado → descarte.
      - "This item cannot be dispatched to your selected delivery location" = **disponível** para o Reino Unido (o servidor está fora do país, por isso a mensagem).
      - "In stock" (quando a página aceita enviar para o local do servidor) = **disponível**.
+     - "See All Buying Options" (sem botão de compra da Amazon) = só vendedores terceiros → avise o usuário para conferir vendedor e preço; para produtos com cambistas (cartas, LEGO), prefira outra página.
      - "Page Not Found" = link morto → descarte.
    - A busca na web mostra cópias antigas das páginas: ela serve para achar produtos e confirmar a origem, não o estoque.
 2. **Entregue em um único bloco de código pronto para copiar e colar**, em inglês (o público é britânico), neste formato:
